@@ -53,10 +53,12 @@
 1. Install the [formRanger add-on](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en) from the webstore.
 
 2. In **Google Form**, click on the add-on icon, and click on **formRanger**, from the menu click **Start**.
-![alt-text](https://missweizhang.github.io/google-form-waitlist/img/formranger_addon.png)
+
+   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/formranger_addon.png)
    In the formRanger sidebar, the **Question list** will show all the questions in your form that support choice, i.e. Multiple Choice, Checkbox, or Dropdown questions.
 
 3. Select the question to replace options with waitlist options, check the box for **Populate from range**, and click the *+* icon to select a **New range**.
+
    ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/formranger_sidebar.png)
 
 4. In the **Add new range** window's **Select sheet** tab, choose the destination spreadsheet, **Selec**t.  In the **Select range** tab, choose 'waitlist options' under **Sheet name**, and choose the appropriate question title under **Column header**.  You may choose to enter a name if you like.  
