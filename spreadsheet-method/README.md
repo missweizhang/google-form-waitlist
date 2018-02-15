@@ -1,13 +1,13 @@
 # Spreadsheet Method
 The method gathers responses collected in the form's linked Google Sheet, stored in the 'Form Responses 1' tab, to compute number of responses (seats taken) for each option of a multiple choice question (Checkbox, Multiple Choice, or Dropdown).  Given a limit for the maximum number of responses allowed for each option, and other paramters specified in the 'waitlist' tab of the linked spreadsheet, we can then compute waitlist positions and replacement text for the options on the form.  The revised options are exported into the 'waitlist options' tab, which the formRanger add-on reads and uses to populate the original Google Form.  Below are the step-by-step instructions on how to set this up.
 
-   - [Link Form to Spreadsheet](#Link-Form-to-Spreadsheet) 
+   [Link Form to Spreadsheet](#link-form-to-spreadsheet) 
    
-   - [Configure Waitlist](#configure-waitlist) 
+   [Configure Waitlist](#configure-waitlist) 
    
-   - [Import Waitlist Options](#Import-Waitlist-Options) 
+   [Import Waitlist Options](#import-waitlist-options) 
    
-   - [Install and set up FormRanger](#Install-and-set-up-FormRanger) 
+   [Install and set up FormRanger](#install-and-set-up-formranger) 
    
 
 
