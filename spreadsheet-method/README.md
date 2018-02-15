@@ -9,8 +9,8 @@ The method gathers responses collected in the form's linked Google Sheet, stored
    
    [Install and set up FormRanger](#install-and-set-up-formranger) 
    
-
-
+   
+<br/>
 ## Link Form to Spreadsheet
 *Tip: If you want to keep columns for certain questions (such as Q1, Q3, Q5) together on the spreadsheet, even though these questions are not adjacent on the form (such as Q1, Q2, Q3, Q4, Q5), you can try adding certain questions (such as Q2, Q4) after linking to the spreadsheet.  Then columns for the questions added later (Q2 and Q4) might go to the far right of the 'Form Responses 1' sheet, keeping the initial columns (Q1, Q3, Q5) adjacent.*
 
@@ -25,6 +25,7 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 4. If the form has changed since linking, re-link by clicking the green spreadsheet icon ![alt-text](https://lh3.googleusercontent.com/R7OAlMl_8iPpOQOsaMX-MWd9_Vvrsqc7nQ6Aidts68Mdof-jkuHR_QV5GGo4Ky8JJbfZ=w18) on the form's **Responses** tab, and make sure added/edited question titles appear in the order desired on row 1 of the 'Form Responses 1' tab in the spreadsheet.  This might take a minute or two.
 
 
+<br/>
 ## Configure Waitlist
 1. From the [demo spreadsheet](https://docs.google.com/spreadsheets/d/1r9sEmRzMkriqzULdU5QX76499oI-KrlleShLuFsjFxs/edit?usp=sharing), right click on the 'waitlist' tab, select **Copy to...**, and select your form's destination spreadsheet (such as *CampToons Reg form (Responses)*).  **Select** and **OK**.
 
@@ -50,6 +51,7 @@ The method gathers responses collected in the form's linked Google Sheet, stored
    *Note: If you need to use different sets of original options, create separate tables, one for each set of original options.*
  
 
+<br/>
 ## Import Waitlist Options
 1. From the [demo spreadsheet](https://docs.google.com/spreadsheets/d/1r9sEmRzMkriqzULdU5QX76499oI-KrlleShLuFsjFxs/edit?usp=sharing), right click on the 'waitlist options' tab, select **Copy to...**, and select your form's destination spreadsheet (such as *CampToons Reg form (Responses)*).  **Select** and **OK**.
 
@@ -62,6 +64,7 @@ The method gathers responses collected in the form's linked Google Sheet, stored
    ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/protect_sheet.png)
 
 
+<br/>
 ## Install and set up FormRanger
 1. Install the [formRanger add-on](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en) from the webstore.
 
@@ -80,4 +83,5 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 5. In the formRanger sidebar, turn **On** the switch for Auto-repopulate questions **On form submit**.
 
    *Note: changes to options will not appear on the Google Form until **Update quesiton list** is clicked, or until the next form submission.  If any of the waitlist settings are changed, such as class limit, display text, original options, these changes will also not be reflected on the Google Form until **Update quesiton list** is clicked, or until the next form submission.*
+   
    *Note: To restore original options to a question, repeat steps 3 and 4, and when formRanger asks for **Column header** choose column A "Question Title".*
