@@ -2,7 +2,7 @@
 
 # Contents
 - Set up waitlist:
-![alt text](https://github.com/missweizhang/google-form-waitlist/blob/master/img/select_method.PNG)
+<img src="https://github.com/missweizhang/google-form-waitlist/blob/master/img/select_method.PNG" class="img-responsive" alt="">
   - [Spreadsheet Method](spreadsheet-method)
   - Form Method - available immediately upon request
  
