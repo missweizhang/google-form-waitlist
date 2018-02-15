@@ -32,7 +32,7 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 
 2. Open your destination spreadsheet, right click on the 'Copy of waitlist' tab, select **Rename...** and rename it to 'waitlist'.
 
-3. Fix the **Invalid** error (red triangles in cell's top-right corner) appear in row 22's question titles.
+3. Fix the **Invalid** error (red triangles in cell's top-right corner) appearing in row 22's question titles.
    ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/invalid_error.png)
 
    Use the drop-down menu to select the appropriate question titles for each cell in row 22, until all errors disappear from rows 22, 24 and 25.  The drop-down menu contains all the question titles listed in the header row (row 1) of the 'Form Responses 1' tab.
