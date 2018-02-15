@@ -18,11 +18,11 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 
 1. On **Google Form**, add all questions except the ones whose columns you want to go to the far right of the spreadsheet.
 
-2. Link to spreadsheet: go to the **Responses** tab, and click on the green spreadsheet icon.  You might be directed to **Select response destination** if your form is not already link.
+2. Link to spreadsheet: go to the **Responses** tab, and click on the green spreadsheet icon ![alt-text](https://lh3.googleusercontent.com/R7OAlMl_8iPpOQOsaMX-MWd9_Vvrsqc7nQ6Aidts68Mdof-jkuHR_QV5GGo4Ky8JJbfZ=w18).  You might be directed to **Select response destination** if your form is not already linked.
 
 3. Open your destination spreadsheet in **Google Sheets**.  Its name might be *CampToons Reg form (Responses)*.  Make sure that submitted responses go to the tab named 'Form Responses 1'.  If not, rename the destination tab to  'Form Responses 1' .
 
-4. If the form has changed since linking, re-link by clicking the green spreadsheet icon on the form's **Responses** tab, and make sure added/edited question titles appear in the order desired on row 1 of the 'Form Responses 1' tab in the spreadsheet.  This might take a minute or two.
+4. If the form has changed since linking, re-link by clicking the green spreadsheet icon ![alt-text](https://lh3.googleusercontent.com/R7OAlMl_8iPpOQOsaMX-MWd9_Vvrsqc7nQ6Aidts68Mdof-jkuHR_QV5GGo4Ky8JJbfZ=w18) on the form's **Responses** tab, and make sure added/edited question titles appear in the order desired on row 1 of the 'Form Responses 1' tab in the spreadsheet.  This might take a minute or two.
 
 
 ## Configure Waitlist
