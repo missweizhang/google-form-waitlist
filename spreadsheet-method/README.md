@@ -83,6 +83,6 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 
 5. In the formRanger sidebar, turn **On** the switch for Auto-repopulate questions **On form submit**.
 
-   *Note: changes to options will not appear on the Google Form until **Update quesiton list** is clicked, or until the next form submission.  If any of the waitlist settings are changed, such as class limit, display text, original options, these changes will also not be reflected on the Google Form until **Update quesiton list** is clicked, or until the next form submission.*
+   *Note: changes to options will not appear on the Google Form until **Update question list** is clicked, or until the next form submission.  If any of the waitlist settings are changed, such as class limit, display text, original options, these changes will also not be reflected on the Google Form until **Update quesiton list** is clicked, or until the next form submission.*
    
    *Note: To restore original options to a question, repeat steps 3 and 4, and when formRanger asks for **Column header** choose column A "Question Title".*
