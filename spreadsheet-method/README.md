@@ -33,11 +33,11 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 2. Open your destination spreadsheet, right click on the 'Copy of waitlist' tab, select **Rename...** and rename it to 'waitlist'.
 
 3. Fix the **Invalid** error (red triangles in cell's top-right corner) appearing in row 22's question titles.
-   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/invalid_error.png)
+   ![alt-text](../img/invalid_error.png)
 
    Use the drop-down menu to select the appropriate question titles for each cell in row 22, until all errors disappear from rows 22, 24 and 25.  The drop-down menu contains all the question titles listed in the header row (row 1) of the 'Form Responses 1' tab.
 
-   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/select_question_title.png)
+   ![alt-text](../img/select_question_title.png)
    
    *Note: [formRanger](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en) only works with question types that support choices, i.e. Multiple Choice, Checkbox, or Dropdown.  Contact [narrow.wei@gmail.com] if you need to use question types that support grid, i.e. Multiple choice grid, or Checkbox grid.*
 
@@ -60,9 +60,9 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 
 3. Make sure that rows beneath the imported table of revised options are empty, or formRanger will pick these up as additional options.  It is highly recommended that the 'waitlist options' tab is locked to give collaborators read-only access.  To lock this tab, go to **Data -> Protected sheets and ranges...**.  In the sidebar, click **Add a sheet or range**, click on **Sheet**, select the sheet 'waitlist options', click **Set permissions**.  In the dialog, select **Restrict who can edit this range** and choose who can edit.   
 
-   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/formranger_options.png)
-   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/protect_sheet_only_you_can_edit.png)
-   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/protect_sheet.png)
+   ![alt-text](../img/formranger_options.png)
+   ![alt-text](../img/protect_sheet_only_you_can_edit.png)
+   ![alt-text](../img/protect_sheet.png)
 
 
 
@@ -71,12 +71,12 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 
 2. In **Google Form**, click on the add-on icon, and click on **formRanger**, from the menu click **Start**.
 
-   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/formranger_addon.png)
+   ![alt-text](../img/formranger_addon.png)
    In the formRanger sidebar, the **Question list** will show all the questions in your form that support choice, i.e. Multiple Choice, Checkbox, or Dropdown questions.
 
 3. Select the question to replace options with waitlist options, check the box for **Populate from range**, and click the *+* icon to select a **New range**.
 
-   ![alt-text](https://missweizhang.github.io/google-form-waitlist/img/formranger_sidebar.png)
+   ![alt-text](../img/formranger_sidebar.png)
 
 4. In the **Add new range** window's **Select sheet** tab, choose the destination spreadsheet, **Select**.  In the **Select range** tab, choose 'waitlist options' under **Sheet name**, and choose the appropriate question title under **Column header**.  You may choose to enter a name if you like.  
    Repeat for each question whose options are to be replaced with the waitlist options.
