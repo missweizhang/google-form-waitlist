@@ -7,7 +7,7 @@ Here is a [demo Google Form](https://docs.google.com/forms/d/11O0dxNVd995oLX95Ix
    - [Email Address](#email-address)
 
 
-![alt-text](./img/response_validation.png)
+![alt-text](../img/response_validation.png)
 
 You can test your [regular expressions online](https://regex101.com/).  Be sure to set regex options to `global` and `multi-line` using the `/mg` regex flag.
 
