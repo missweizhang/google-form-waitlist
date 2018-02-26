@@ -1,15 +1,15 @@
 # Response Validation
-Follow [these steps](https://support.google.com/docs/answer/3378864?hl=en) to set up Response Validation.
-
 Here is a [demo Google Form](https://docs.google.com/forms/d/11O0dxNVd995oLX95Ix-tns1h9xJPSjglJPdBx0jVkoI/edit) demonstrating response validation for:
    - [US Phone Number](#phone-number)
    - [Zip Code](#zip-code)
    - [Email Address](#email-address)
 
-
+1. Follow [Google's instructions](https://support.google.com/docs/answer/3378864?hl=en) to set up Response Validation.
+2. Copy/paste the regular expression code from below.
+3. Write an error message such as `"000-000-0000"` for phone number, `"12345 or 12345-0000"` for zip code, and `"invalid email address"` for email address.
 ![alt-text](../img/response_validation.png)
 
-You can test your [regular expressions online](https://regex101.com/).  Be sure to set regex options to `global` and `multi-line` using the `/mg` regex flag.
+*Note: You can test your [regular expressions online](https://regex101.com/).  Be sure to set regex options to `global` and `multi-line` using the `/mg` regex flag.*
 
 
 ## Phone Number
