@@ -1,5 +1,5 @@
 # Embed Google Form on Website
-Here is an [example](/embed.html).  
+Here is an [example](../embed.html).  
 
 - [Instructions for SquareSpace](https://support.squarespace.com/hc/en-us/articles/205814348-Displaying-files-on-your-site):
 scroll down to **Google Drive**.
