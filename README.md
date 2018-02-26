@@ -16,3 +16,5 @@
 - [Data Analysis](data-analysis): [demo](https://docs.google.com/spreadsheets/d/1yYc1ecmeawc0_VqBrXIaNytGSHoxWJghUWh-cW0o8iM/edit?usp=sharing) renders Google Form's data dump of responses into a more readable format -- wide form and long form -- in the form's linked spreadsheet.
 
 - [Data Export](data-export): [demo](https://docs.google.com/spreadsheets/d/1WGlJ7q8yTo78v4WL7p6eJW-cHkKmsTrFZwVMtWkmwvU/edit?usp=sharing) uses the [IMPORTRANGE](https://support.google.com/docs/answer/3093340) function to copy out results (selected ranges) from the data analysis spreadsheet.
+
+- [Embed Form on Website](embed-form): here's an [example](/embed.html).
