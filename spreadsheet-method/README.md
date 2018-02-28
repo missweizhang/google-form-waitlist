@@ -1,6 +1,8 @@
 # Spreadsheet Method
 The method gathers responses collected in the form's linked Google Sheet, stored in the 'Form Responses 1' tab, to compute number of responses (seats taken) for each option of a multiple choice question (Checkbox, Multiple Choice, or Dropdown).  Given a limit for the maximum number of responses allowed for each option, and other paramters specified in the 'waitlist' tab of the linked spreadsheet, we can then compute waitlist positions and replacement text for the options on the form.  The revised options are exported into the 'waitlist options' tab, which the formRanger add-on reads and uses to populate the original Google Form.  Below are the step-by-step instructions on how to set this up.
 
+   ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ***IMPORTANT NOTE!** changes options will not appear on the Google Form until **Auto-repopulate questions: Every hour** is toggled **ON** then **OFF** in the [formRanger add-on](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en), or until the next form submission.  If any of the waitlist settings are changed in the Spreadsheet, such as class limit, display text, original options, these changes will also not be reflected on the Google Form until **Auto-repopulate questions: Every hour** is toggled **ON** then **OFF**, or until the next form submission.*
+
 ## Contents
    [Link Form to Spreadsheet](#link-form-to-spreadsheet) 
    
@@ -39,9 +41,9 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 
    ![alt-text](../img/select_question_title.png)
    
-   *Note: [formRanger](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en) only works with question types that support choices, i.e. Multiple Choice, Checkbox, or Dropdown.  Contact [narrow.wei@gmail.com] if you need to use question types that support grid, i.e. Multiple choice grid, or Checkbox grid.*
+   ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ***NOTE**: [formRanger](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en) only works with question types that support choices, i.e. Multiple Choice, Checkbox, or Dropdown.  Contact [narrow.wei@gmail.com] if you need to use question types that support grid, i.e. Multiple choice grid, or Checkbox grid.*
 
-   *Note: You can ignore the data-item-id if you are using [formRanger](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en).*
+   ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ***NOTE**: You can ignore the data-item-id if you are using [formRanger](https://chrome.google.com/webstore/detail/formranger/faepkjkcpnnghgdhiobglpppbfdnaehc?hl=en).*
    
 4. Set enrollment limit for each class in rows 2-7 of the 'waitlist' tab.  This is the number of seats available before reaching the waitlist.
 
@@ -49,7 +51,7 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 
 6. Set text for the original set of multiple choice options in cells A26:A31.  The table should automatically populate with revised options for each question, depending on the number of seats taken (rows 9-15) as calculated from the 'Form Responses 1' tab.
 
-   *Note: If you need to use different sets of original options, create separate tables, one for each set of original options.*
+   ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ***NOTE**:: If you need to use different sets of original options, create separate tables, one for each set of original options.*
  
 
 
@@ -81,11 +83,11 @@ The method gathers responses collected in the form's linked Google Sheet, stored
 4. In the **Add new range** window's **Select sheet** tab, choose the destination spreadsheet, **Select**.  In the **Select range** tab, choose 'waitlist options' under **Sheet name**, and choose the appropriate question title under **Column header**.  You may choose to enter a name if you like.  
    Repeat for each question whose options are to be replaced with the waitlist options.
 
-5. In the formRanger sidebar, turn **On** the switch for Auto-repopulate questions **On form submit**.
+5. In the formRanger sidebar, turn **ON** the switch for **Auto-repopulate questions: On form submit**.
 
-   *Note: changes to options will not appear on the Google Form until **Update question list** is clicked, or until the next form submission.  If any of the waitlist settings are changed, such as class limit, display text, original options, these changes will also not be reflected on the Google Form until **Update quesiton list** is clicked, or until the next form submission.*
+   ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ***IMPORTANT NOTE!** changes options will not appear on the Google Form until **Auto-repopulate questions: Every hour** is toggled **ON** then **OFF**, or until the next form submission.  If any of the waitlist settings are changed in the Spreadsheet, such as class limit, display text, original options, these changes will also not be reflected on the Google Form until **Auto-repopulate questions: Every hour** is toggled **ON** then **OFF**, or until the next form submission.*
    
-   *Note: To restore original options to a question, repeat steps 3 and 4, and when formRanger asks for **Column header** choose column A "Question Title".*
+   ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) ***NOTE**: To restore original options to a question, repeat steps 3 and 4, and when formRanger asks for **Column header** choose column A "Question Title".*
    
 ## Alternate Methods
 [Form Method](../form-method) 
